@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: petclinic
-        image: kashimo0054/petclinic:latest
+        image: kashimo0054/petapp:d6f1a7403e078639e8af8258936ba9f90d35c129
         ports:
         - containerPort: 8080
         env:
